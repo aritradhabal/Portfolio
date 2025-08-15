@@ -216,8 +216,8 @@ export default function Page() {
                     had the incredible opportunity to participate in a national
                     hackathon, competing among 0.3 million students from across
                     India and winning it. The experience was both thrilling and
-                    inspiring, and it excites me to take part in many more hackathons
-                    in the future.
+                    inspiring, and it excites me to take part in many more
+                    hackathons in the future.
                   </p>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
-        <section id="contact">
+        {/* <section id="contact">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
               <div className="space-y-3">
@@ -266,7 +266,7 @@ export default function Page() {
               </div>
             </BlurFade>
           </div>
-        </section>
+        </section> */}
       </main>
     </BlurFade>
   );
