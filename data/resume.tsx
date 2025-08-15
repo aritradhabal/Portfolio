@@ -157,7 +157,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/PrepPal.mp4",
+      video: "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/PrepPal.webm",
     },
     {
       title: "QuizFlow",
@@ -189,7 +189,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/quizflow.mp4",
+      video:
+        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/quizflow.webm",
     },
     {
       title: "TrailMine",
