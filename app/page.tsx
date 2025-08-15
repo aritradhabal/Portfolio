@@ -212,12 +212,12 @@ export default function Page() {
                     I like building things
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    During my time in university, I attended{" "}
-                    {DATA.hackathons.length}+ hackathons. People from around the
-                    country would come together and build incredible things in
-                    2-3 days. It was eye-opening to see the endless
-                    possibilities brought to life by a group of motivated and
-                    passionate individuals.
+                    I’m currently a third-year undergraduate student and have
+                    had the incredible opportunity to participate in a national
+                    hackathon, competing among 0.3 million students from across
+                    India and winning it. The experience was both thrilling and
+                    inspiring, and it excites me to take part in many more hackathons
+                    in the future.
                   </p>
                 </div>
               </div>
@@ -257,6 +257,7 @@ export default function Page() {
                   Want to chat? Just shoot me a dm{" "}
                   <Link
                     href={DATA.contact.social.X.url}
+                    target="_blank"
                     className="text-blue-500 hover:underline"
                   >
                     with a direct question on twitter

@@ -8,11 +8,11 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/jalpaiguri",
   description:
-    "Ai & Software Engineer passionate about turning ideas into impactful products.",
+    "AI & Software Engineer passionate about turning ideas into impactful products.",
   summary:
     // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
     "Currently pursuing an internship at ISI Kolkata in Machine Learning, Algorithms, AI, and LLMs. Completed Summer School at IIIT Allahabad in Artificial Intelligence & Robotics. Winner of Smart India Hackathon 2024 for developing TrailMine (blockchain analytics). Worked with Scale AI subsidiaries as a contractor for Fortune 500 companies in RLHF and model training.",
-  avatarUrl: "/me.webp",
+  avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
@@ -124,78 +124,15 @@ export const DATA = {
       description: "",
     },
   ],
-  education: [
-    {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
-    },
-  ],
+  education: [],
   projects: [
     {
-      title: "QuizFlow.Ai",
-      href: "#projects",
-      dates: "June 2025 - July 2025",
-      active: true,
-      description: "",
-      technologies: [
-        "Python",
-        "Gen Ai",
-        "Supabase",
-        "PostgreSQL",
-        "Google Cloud",
-        "OAuth2.0",
-        "Streamlit",
-        "Docker",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://quizflow.me",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/aritradhabal/QuizFlow",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "PrepPal.Ai",
+      title: "PrepPal",
       href: "#projects",
       dates: "Aug. 2025 - Present",
       active: true,
-      description: "",
+      description:
+        "PrepPal turns syllabus PDFs or custom topics into personalized learning modules. Users can upload their syllabus or enter a topic, and PrepPal intelligently creates structured, tailored modules to suit their learning style.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -220,14 +157,47 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/PrepPal.mp4",
+    },
+    {
+      title: "QuizFlow",
+      href: "#projects",
+      dates: "June 2025 - July 2025",
+      active: true,
+      description:
+        "QuizFlow is an Ai-powered platform that transcribes YouTube videos, utilizes YouTube Data API and auto-generates quizzes, featuring secure authentication, cloud deployment, and real-time quiz sharing.",
+      technologies: [
+        "Python",
+        "Gen Ai",
+        "Supabase",
+        "PostgreSQL",
+        "Google Cloud",
+        "OAuth2.0",
+        "Streamlit",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://quizflow.me",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aritradhabal/QuizFlow",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/quizflow.mp4",
     },
     {
       title: "TrailMine",
       href: "#projects",
       dates: "Nov. 2024 - Dec. 2024",
       active: true,
-      description: "",
+      description:
+        "TrailMine is a real-time blockchain analytics tool built with Streamlit to uncover hidden transaction patterns across multiple blockchains. It features visualizations, deep transaction tracing, and interactive dashboards to help make sense of complex blockchain data.",
       technologies: [
         "Python",
         "Neo4j",
@@ -252,7 +222,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video:
+        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/trailmine.mp4",
     },
   ],
   hackathons: [
@@ -260,20 +231,26 @@ export const DATA = {
       title: "Smart India Hackathon",
       dates: "Sept. 2024 - Dec. 2024",
       location: "IIT Bhubaneswar",
-      description: "",
+      description:
+        "Winner of Smart India Hackathon 2024 for developing a blockchain analysis platform, TrailMine for the Narcotics Control Bureau, enabling deep transaction tracing and real-time investigative dashboards.",
       image: "sih.png",
       win: true,
       mlh: "",
       links: [
         {
-          title: "Website",
+          title: "Project",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
+          href: "https://github.com/aritradhabal/TrailMine",
         },
         {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://sih.gov.in/sih2024/sih2024-grand-finale-result#:~:text=Tamil%20Nadu-,Indian%20Institute%20of%20Technology%2C%20Bhubaneshwar,Jalpaiguri%20Govt.%20Engineering%20College%20101,-Jalpaiguri",
+        },
+        {
+          title: "Live Stream",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/live/Y-ZQZgt4nFc?si=B0rdaAr5SqCuWMXG&t=1047",
         },
       ],
     },
