@@ -40,6 +40,12 @@ export const DATA = {
     email: "hello@example.com",
     tel: "+123456789",
     social: {
+      Resume: {
+        name: "Resume",
+        url: "https://dub.sh/aritra-resume",
+        icon: Icons.googleDrive,
+        navbar: false,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://dub.sh/aritra-github",
