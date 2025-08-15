@@ -231,7 +231,7 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
                   Get in Touch
                 </h2>
-                <p className="mt-10 mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="mt-5 md:mt-10 mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Want to chat? Just shoot me a dm{" "}
                   <Link
                     href={DATA.contact.social.X.url}

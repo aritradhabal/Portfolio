@@ -12,7 +12,7 @@ const ShowNavBar = () => {
     }, 0.05);
 
     return () => clearTimeout(timer);
-  }, []);
+  });
 
   return <>{showNavbar && <Navbar />}</>;
 };

@@ -17,7 +17,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
         setprevTheme(theme);
       }
     }
-  }, []);
+  }, [prevTheme, theme, setTheme, setprevTheme]);
   return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 }
 
