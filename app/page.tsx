@@ -44,6 +44,28 @@ export default function Page() {
                     <Emoji />
                   </BlurFade>
                 </div>
+                <div className="flex md:hidden flex-col justify-start py-2 ">
+                  <BlurFadeText
+                    delay={BLUR_FADE_DELAY}
+                    className="text-3xl font-bold tracking-tight sm:text-5xl xl:text-6xl/none"
+                    yOffset={8}
+                    text={`Here's`}
+                  />
+
+                  <BlurFadeText
+                    delay={BLUR_FADE_DELAY_slow}
+                    className="text-3xl font-bold tracking-tight md:tracking-normal sm:text-5xl xl:text-6xl/none"
+                    yOffset={8}
+                    text={`${DATA.name.split(" ")[0]}`}
+                  />
+                  <BlurFade
+                    delay={BLUR_FADE_DELAY_slow}
+                    className="text-3xl font-bold tracking-tight
+                    md:tracking-normal sm:text-5xl xl:text-6xl/none"
+                  >
+                    <Emoji />
+                  </BlurFade>
+                </div>
                 <BlurFadeText
                   className="max-w-[600px] md:text-xl"
                   delay={BLUR_FADE_DELAY}
