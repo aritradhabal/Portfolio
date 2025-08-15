@@ -107,7 +107,7 @@ export const DATA = {
       badges: ["Remote"],
       location: "Remote",
       title: "Contractual - Math & Coding Expert",
-      logoUrl: "/scale.png",
+      logoUrl: "/Scale.png",
       start: "Nov 2024",
       end: "April 2025",
       description: "",
