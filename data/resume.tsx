@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
     "Currently pursuing an internship at ISI Kolkata in Machine Learning, Algorithms, AI, and LLMs. Completed Summer School at IIIT Allahabad in Artificial Intelligence & Robotics. Winner of Smart India Hackathon 2024 for developing TrailMine (blockchain analytics). Worked with Scale AI subsidiaries as a contractor for Fortune 500 companies in RLHF and model training.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me_small.png",
   skills: [
     "React",
     "Next.js",
@@ -224,7 +224,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/trailmine.mp4",
+        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/trailmine.webm",
     },
   ],
   hackathons: [
