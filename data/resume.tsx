@@ -16,6 +16,13 @@ export const DATA = {
   skills: [
     "React",
     "Next.js",
+    "Ethers.js",
+    "Solidity",
+    "Ethereum Virtual Machine",
+    "RainbowKit",
+    "Chainlink",
+    "Moralis",
+    "Alchemy",
     "Javascript",
     "Typescript",
     "Node.js",
@@ -44,7 +51,7 @@ export const DATA = {
         name: "Resume",
         url: "https://dub.sh/aritra-resume",
         icon: Icons.googleDrive,
-        navbar: false,
+        navbar: true,
       },
       GitHub: {
         name: "GitHub",
@@ -86,7 +93,7 @@ export const DATA = {
   work: [
     //Study and Experience
     {
-      company: "ISI Kolkata",
+      company: "Indian Statistical Institute, Kolkata",
       href: "",
       badges: ["Hybrid"],
       location: "Hybrid",
@@ -133,6 +140,81 @@ export const DATA = {
   education: [],
   projects: [
     {
+      title: "TrailMine",
+      href: "#projects",
+      dates: "Nov. 2024 - Dec. 2024",
+      active: true,
+      description:
+        "TrailMine is a real-time blockchain analytics tool built with Streamlit to uncover hidden transaction patterns across multiple blockchains. It features visualizations, deep transaction tracing, and interactive dashboards to help make sense of complex blockchain data.",
+      technologies: [
+        "Moralis",
+        "Alchemy",
+        "DuneSQL",
+        "EVM",
+        "Chainalysis",
+        "WalletConnect",
+        "Neo4j",
+        "Graph ML",
+        "Google Cloud",
+        "Streamlit",
+        "Docker",
+        "Pandas",
+        "Numpy",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://trailmine-d059837d2f27.herokuapp.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aritradhabal/TrailMine",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/trailmine.webm",
+    },
+    {
+      title: "QuizFlow",
+      href: "#projects",
+      dates: "June 2025 - July 2025",
+      active: true,
+      description:
+        "QuizFlow is an Ai-powered platform that transcribes YouTube videos by yt-dlp and Whisper, utilizes YouTube Data API and auto-generates quizzes, featuring secure authentication, cloud deployment, and real-time quiz sharing.",
+      technologies: [
+        "Python",
+        "Gen Ai",
+        "Google Apps API",
+        "yt-dlp",
+        "Whisper",
+        "Supabase",
+        "PostgreSQL",
+        "Google Cloud",
+        "OpenID",
+        "OAuth2.0",
+        "Streamlit",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://quizflow.me",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aritradhabal/QuizFlow",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/quizflow.webm",
+    },
+    {
       title: "PrepPal",
       href: "#projects",
       dates: "Aug. 2025 - Present",
@@ -164,73 +246,6 @@ export const DATA = {
       ],
       image: "",
       video: "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/PrepPal.webm",
-    },
-    {
-      title: "QuizFlow",
-      href: "#projects",
-      dates: "June 2025 - July 2025",
-      active: true,
-      description:
-        "QuizFlow is an Ai-powered platform that transcribes YouTube videos, utilizes YouTube Data API and auto-generates quizzes, featuring secure authentication, cloud deployment, and real-time quiz sharing.",
-      technologies: [
-        "Python",
-        "Gen Ai",
-        "Supabase",
-        "PostgreSQL",
-        "Google Cloud",
-        "OAuth2.0",
-        "Streamlit",
-        "Docker",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://quizflow.me",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/aritradhabal/QuizFlow",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/quizflow.webm",
-    },
-    {
-      title: "TrailMine",
-      href: "#projects",
-      dates: "Nov. 2024 - Dec. 2024",
-      active: true,
-      description:
-        "TrailMine is a real-time blockchain analytics tool built with Streamlit to uncover hidden transaction patterns across multiple blockchains. It features visualizations, deep transaction tracing, and interactive dashboards to help make sense of complex blockchain data.",
-      technologies: [
-        "Python",
-        "Neo4j",
-        "Firebase",
-        "Google Cloud",
-        "Streamlit",
-        "Docker",
-        "Moralis",
-        "Pandas",
-        "Numpy",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://trailmine-d059837d2f27.herokuapp.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/aritradhabal/TrailMine",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-74c3ed08843449e6ae368362f8db21ad.r2.dev/trailmine.webm",
     },
   ],
   hackathons: [
