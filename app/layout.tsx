@@ -6,8 +6,13 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import ShowNavBar from "@/components/ShowNavBar";
+import { Geist } from "next/font/google";
 
-const fontSans = FontSans({
+// const fontSans = FontSans({
+//   subsets: ["latin"],
+//   variable: "--font-sans",
+// });
+const geist = Geist({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -58,14 +63,10 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl md:max-w-3xl mx-auto py-12 sm:py-24 px-6",
-          fontSans.variable
+          geist.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          
-        >
+        <ThemeProvider attribute="class" defaultTheme="system">
           <TooltipProvider delayDuration={0}>
             {children}
             <ShowNavBar />
