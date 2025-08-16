@@ -7,7 +7,8 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import ShowNavBar from "@/components/ShowNavBar";
 import { Geist } from "next/font/google";
-
+import { Suspense } from "react";
+import Loading from "./loading";
 // const fontSans = FontSans({
 //   subsets: ["latin"],
 //   variable: "--font-sans",
@@ -60,19 +61,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl md:max-w-3xl mx-auto py-12 sm:py-24 px-6",
-          geist.variable
-        )}
-      >
-        <ThemeProvider attribute="class" defaultTheme="system">
-          <TooltipProvider delayDuration={0}>
-            {children}
-            <ShowNavBar />
-          </TooltipProvider>
-        </ThemeProvider>
-      </body>
+      <Suspense fallback={<Loading />}>
+        <body
+          className={cn(
+            "min-h-screen bg-background font-sans antialiased max-w-2xl md:max-w-3xl mx-auto py-12 sm:py-24 px-6",
+            geist.variable
+          )}
+        >
+          <ThemeProvider attribute="class" defaultTheme="system">
+            <TooltipProvider delayDuration={0}>
+              {children}
+              <ShowNavBar />
+            </TooltipProvider>
+          </ThemeProvider>
+        </body>
+      </Suspense>
     </html>
   );
 }
