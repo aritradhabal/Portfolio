@@ -9,6 +9,7 @@ import ShowNavBar from "@/components/ShowNavBar";
 import { Geist } from "next/font/google";
 import { Suspense } from "react";
 import Loading from "./loading";
+import { DotBackground } from "./DotBackground";
 // const fontSans = FontSans({
 //   subsets: ["latin"],
 //   variable: "--font-sans",
@@ -61,21 +62,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Suspense fallback={<Loading />}>
-        <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased max-w-2xl md:max-w-3xl mx-auto py-12 sm:py-24 px-6",
-            geist.variable
-          )}
-        >
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased max-w-2xl md:max-w-3xl mx-auto py-12 sm:py-24 px-6",
+          geist.variable,
+          "absolute inset-0",
+          "[background-size:20px_20px]",
+          "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
+          "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]"
+        )}
+      >
+        <Suspense fallback={<Loading />}>
           <ThemeProvider attribute="class" defaultTheme="system">
             <TooltipProvider delayDuration={0}>
               {children}
               <ShowNavBar />
             </TooltipProvider>
           </ThemeProvider>
-        </body>
-      </Suspense>
+        </Suspense>
+      </body>
     </html>
   );
 }

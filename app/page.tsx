@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
-
+import { cn } from "@/lib/utils";
 import Markdown from "react-markdown";
 import Emoji from "@/components/Emoji";
 
@@ -23,7 +23,11 @@ export default function Page() {
           <div className="mx-auto w-full max-w-2xl md:max-w-3xl space-y-8">
             <div className="gap-2 flex justify-between">
               <div className="flex-col flex flex-1 space-y-1.5">
-                <div className="hidden md:flex justify-start gap-x-3 flex-col md:flex-row ">
+                <div
+                  className={cn(
+                    "hidden md:flex justify-start gap-x-3 flex-col md:flex-row"
+                  )}
+                >
                   <BlurFadeText
                     delay={BLUR_FADE_DELAY}
                     className="text-3xl font-bold tracking-tight sm:text-5xl xl:text-6xl/none"
@@ -112,7 +116,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        
+
         <section id="work">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -138,8 +142,6 @@ export default function Page() {
             ))}
           </div>
         </section>
-
-        
 
         <section id="projects">
           <div className="space-y-12 w-full py-12">
@@ -225,7 +227,6 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
-      
       </main>
     </BlurFade>
   );
