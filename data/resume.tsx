@@ -98,13 +98,13 @@ export const DATA = {
     },
     {
       company: "IIIT Allahabad",
-      href: "",
+      href: "https://drive.google.com/file/d/18gVVh9YEK5oDMaihFblDzk9sd-suUNAo/view?usp=sharing",
       badges: ["Onsite"],
       location: "Offline",
       title: "Summer Trainee - ML, NLP & Robotics",
       logoUrl: "/IIIT.png",
       start: "June 2025",
-      end: "July 2025",
+      end: "Aug. 2025",
       description: "",
     },
     {
