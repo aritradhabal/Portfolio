@@ -42,7 +42,7 @@ export function ProjectCard({
 }: Props) {
   return (
     <div className="opacity-100 blur-0 -translate-y-[6px] transform">
-      <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full">
+      <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border hover:shadow-lg dark:hover:shadow-md dark:hover:shadow-gray-500 transition-all duration-300 ease-out h-full">
         <Link
           href={href || "#"}
           className={cn("block cursor-pointer", className)}
