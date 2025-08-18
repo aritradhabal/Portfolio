@@ -94,7 +94,7 @@ export const DATA = {
     //Study and Experience
     {
       company: "Indian Statistical Institute, Kolkata",
-      href: "",
+      href: "https://dub.sh/notion-ml",
       badges: ["Hybrid"],
       location: "Hybrid",
       title: "AI/ML & LLM Intern",
@@ -105,7 +105,7 @@ export const DATA = {
     },
     {
       company: "IIIT Allahabad",
-      href: "https://drive.google.com/file/d/18gVVh9YEK5oDMaihFblDzk9sd-suUNAo/view?usp=sharing",
+      href: "https://dub.sh/IIITA-certificate",
       badges: ["Onsite"],
       location: "Offline",
       title: "Summer Trainee - ML, NLP & Robotics",
