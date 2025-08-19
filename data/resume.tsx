@@ -116,7 +116,7 @@ export const DATA = {
     },
     {
       company: "Scale Ai",
-      href: "",
+      href: "#work",
       badges: ["Remote"],
       location: "Remote",
       title: "Contractual - Math & Coding Expert",
@@ -127,7 +127,7 @@ export const DATA = {
     },
     {
       company: "Jalpaiguri Govt. Engineering College",
-      href: "",
+      href: "#work",
       badges: ["Fulltime"],
       location: "Fulltime",
       title: "Bachelor of Technology",
