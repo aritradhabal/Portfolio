@@ -199,9 +199,9 @@ export default function Page() {
                     I’m currently a third-year undergraduate student and have
                     had the incredible opportunity to participate in a national
                     hackathon, competing among 0.3 million students from across
-                    India and winning it. The experience was both thrilling and
-                    inspiring, and it excites me to take part in many more
-                    hackathons in the future.
+                    India and winning it. Also, I have participated in a few
+                    hackathons organized by ETHGlobal & Continued to learn Web3
+                    & Blockchain.
                   </p>
                 </div>
               </div>
